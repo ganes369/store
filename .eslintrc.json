@@ -1,0 +1,13 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
